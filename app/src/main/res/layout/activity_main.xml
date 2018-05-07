@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fun.dante.three_practice.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Text_Display"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/but"
+                android:text="Enter"
+                android:layout_width="120dp"
+                android:layout_height="50dp" />
+            <CheckBox
+                android:id="@+id/first"
+                android:text="Yes,u are right!"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+            <CheckBox
+                android:id="@+id/Second"
+                android:text="No,u are wrong!"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+            <CheckBox
+                android:id="@+id/Third"
+                android:text="Nope,u are Killer!"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+            
+            <RadioButton
+                android:id="@+id/Rd_First"
+                android:text="Yes.I love You."
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+
+            <RadioButton
+                android:text="No,I Hate You."
+                android:id="@+id/Rd_Second"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+
+            <RadioButton
+                android:text="Nope,I'm Killer."
+                android:id="@+id/Rd_Third"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
